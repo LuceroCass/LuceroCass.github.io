@@ -4,10 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página de GitHub</title>
+    <title>Lucero Casillas | Desarrolladora</title>
+    <style>
+        /* Estilos básicos para el cuerpo */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212; /* Fondo oscuro */
+            color: #e0e0e0; /* Texto claro */
+            text-align: center;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+
+        a {
+            color: #61dafb; /* Color azul claro para los enlaces */
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 20px;
+        }
+
+        /* Añadir una pequeña animación de entrada */
+        body, h1, p, a {
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>¡Hola, Mundo!</h1>
-    <p>Esta es mi primera página con GitHub Pages.</p>
+    <div class="container">
+        <h1>Lucero Casillas</h1>
+        <p>Desarrolladora web y consultora de ERP Odoo.</p>
+        <p>Explora mis proyectos y sígueme en <a href="https://github.com/lucerocass" target="_blank">GitHub</a>.</p>
+    </div>
 </body>
 </html>
+
